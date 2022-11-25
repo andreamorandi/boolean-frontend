@@ -1,3 +1,5 @@
+@use "./partials/variables" as *;
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,10 @@
 html {
     font-family: sans-serif;
 }
+
+body{
+    background-color: #090909;
+} 
 
 ul {
     list-style-type: none;
@@ -37,4 +43,34 @@ a {
     .container-md {
         width: 100%;
     }
+}
+
+.bg-violet {
+    background-color: $violet;
+    box-shadow: 0px 0px 15px 5px $violet;
+
+}
+.bg-light-blue {
+    background-color: $light-blue;
+    box-shadow: 0px 0px 15px 5px $light-blue;
+}
+.bg-green {
+    background-color: $green;
+    box-shadow: 0px 0px 15px 5px $green;
+}
+.bg-dark-blue {
+    background-color: $dark-blue;
+    box-shadow: 0px 0px 15px 5px $dark-blue;
+}
+.bg-light-green {
+    background-color: $light-green;
+    box-shadow: 0px 0px 15px 5px $light-green;
+}
+.bg-red {
+    background-color: $red;
+    box-shadow: 0px 0px 15px 5px $red;
+}
+.bg-yellow {
+    background-color: $yellow;
+    box-shadow: 0px 0px 15px 5px $yellow;
 }

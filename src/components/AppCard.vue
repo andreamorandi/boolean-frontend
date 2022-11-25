@@ -8,10 +8,10 @@ export default {
 </script>
 
 <template>
-    <div class="card">
+    <div class="card" :class="`bg-${link.color}`">
         <h3>{{  link.date }}</h3>
         <h2>{{ link.title }}</h2>
-        <h5>{{ link.description }}</h5>
+        <h4>{{ link.description }}</h4>
         <div class="links">
             <a :href="link.github">
                 <i class="fa-brands fa-github"></i>
@@ -30,11 +30,10 @@ export default {
     justify-content: center;
     align-items: center;
     gap: .5rem;
-    margin: 1rem;
+    margin: 2.5rem 1rem;
     padding: 1rem;
     border-radius: 10px;
     color: white;
-    background-color: darkblue;
     h3 {
         align-self: flex-start;
     }

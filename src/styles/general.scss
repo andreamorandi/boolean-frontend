@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-md {
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .container-md {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-md {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container-md {
+        width: 100%;
+    }
+}

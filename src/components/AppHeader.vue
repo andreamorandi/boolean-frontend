@@ -6,7 +6,7 @@ export default {
 
 <template>
     <header>
-        <h1>Boolean Front-end</h1>
+        <h1>Boolean Frontend</h1>
     </header>
 </template>
 

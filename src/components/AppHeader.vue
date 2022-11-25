@@ -13,6 +13,7 @@ export default {
 <style lang="scss" scoped>
 header {
     text-align: center;
+    padding: 0 1rem;
     padding-top: 2.5rem;
     padding-bottom: 1.5rem;
     h1 {

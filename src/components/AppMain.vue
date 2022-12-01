@@ -53,7 +53,7 @@ export default {
                     title: "Netflix",
                     description: "Vue + Vite + Sass, responsive",
                     date: "17 Novembre",
-                    href: "https://www.netflix.morandiandrea.com",
+                    href: "https://www.boolflix.morandiandrea.com",
                     github: "https://github.com/andreamorandi/vite-boolflix",
                     color: "red",
                 },
